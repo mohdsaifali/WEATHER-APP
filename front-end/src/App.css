@@ -1,0 +1,111 @@
+.nav-ul{
+  background-color: #61dafb;
+  margin-top: 10px;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+.nav-ul li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.Register,.product{
+  margin-left: 30%;
+}
+.login{
+  margin-left: 30%;
+}
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.addButton{
+  display: block;
+  background-color: #61dafb;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 50px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.invalid-input{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*weather app css*/
+
+.wetherBg{
+  background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading{
+  color:white;
+  font-weight: 700;
+}
+.wetherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+}
+.weathorIcon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.weathorCity{
+  font-size: 35px;
+}
+.weathorTemp{
+  font-size:55px;
+  font-weight: 700;
+}
